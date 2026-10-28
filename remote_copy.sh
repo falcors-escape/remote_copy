@@ -4,7 +4,7 @@ LOCAL_DIR="/home/developer/Downloads"
 ISO_NAME="rhel-9.8-x86_64-dvd.iso"
 REMOTE_USER="developer"
 REMOTE_HOST="192.168.1.227"
-REMOTE_DESTINATION="/home/developer/Downloads"
+REMOTE_DESTINATION="/home/developer/${ISO_NAME}"
 
 rsync_file(){
 	local src="$1"
